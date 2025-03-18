@@ -1,0 +1,10 @@
+css:
+  - "css/normalize.css"
+  - "css/main.css"
+"email-obfuscation": "none"
+"include-after-body": "templates/footer.html"
+"include-before-body": "templates/header.html"
+"metadata-file": "meta.yaml"
+standalone: true
+template: "templates/template.html"
+to: "html5"

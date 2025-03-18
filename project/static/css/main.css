@@ -1,0 +1,128 @@
+/* Adapted liberally from: http://style.cleverchimp.com/corestyle/base.html */
+
+/*.openpgp-fingerprint {
+    font-family: $mono;
+    font-size: 0.8em;
+}*/
+
+
+/* Revert link styles to emulate Netscape (mostly) */
+
+/* Begin tree of inherited properties and cascades. */
+
+/* Describes the default type, color, and link decoration specs of
+Mosaic-derivative browsers to the extent and degree of granularity that users may typically override.  Uncommented for "factory settings." */
+
+/* Colors have been softened a bit with color component F changed to E and 0 changed to 1 */
+/* Fonts have their default order (Times New Roman, Times; Courier New, Courier) swapped so they look good on my system */
+
+html {
+    background-color: #bebebe;
+}
+
+body {
+    text-rendering: optimizeLegibility;
+    font-family: "Times New Roman", Times, Georgia, Palatino, serif;
+    font-size: 1.6rem;
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+    color: #111;
+    line-height: 1.4;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: underline;
+}
+
+a:link    { color: #00e; }
+a:visited { color: #7e007e; }
+a:active  { color: #e00; }
+
+/* Place thick borders on image links */
+a img         { border: solid .1875em; }
+a:link img    { border-color: #00e; }
+a:visited img { border-color: #7e007e; }
+a:active img  { border-color: #e00; }
+
+/* end pre-CSS user settings */
+
+/* Ensure deleted text is crossed-out */
+del {
+    text-decoration: line-through;
+}
+
+/*hr {
+    border: 1px inset; / * questionable * /
+    padding: 3px 0 0;
+}*/
+
+/* Underline inserted text */
+ins {
+    text-decoration: underline;
+}
+
+/* === Borrowed shamelessly from the HTML5 Boilerplate === */
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+body > header h1 {
+    font-size: 1.5em;
+    margin-bottom: 0;
+}
+
+body > header a {
+    text-decoration: none;
+    color: black;
+    margin-left: 0.5em;
+}
+
+body > header a:first-child {
+    margin-left: 0;
+}
+
+.subtitle {
+    font-size: 1em;
+    margin-bottom: 1.5rem;
+    display: block;
+}
+
+body > footer {
+    /*padding: 1rem 0;*/
+    font-size: smaller;
+}
+
+/*body > footer a:link,
+body > footer a:visited,
+body > footer a:active {
+    text-decoration: none;
+    color: #222;
+}*/
