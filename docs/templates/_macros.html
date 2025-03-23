@@ -1,0 +1,4 @@
+{% macro stylesheet(path, type=256) -%}
+<link rel="stylesheet" crossorigin="anonymous" href="{{ get_url(path=path) }}"
+    {%- if config.mode != "serve" -%}integrity="sha{{ type }}-{{ get_hash(path=path, sha_type=type, base64=true) | safe }}"{%- endif -%}>
+{%- endmacro input %}

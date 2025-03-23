@@ -1,0 +1,33 @@
+<nav>
+    <ul>
+        {% set top_resources = section.pages | filter(attribute="extra.pinned", value=true) %}
+
+        {% if top_resources %}
+            {% for resource in top_resources | sort(attribute="title") %}
+                <li>
+                    <a href="{{ resource.path | safe }}">{{ resource.title }}</a>
+                </li>
+            {% endfor %}
+        {% endif %}
+    </ul>
+
+    {% set subsections = section.pages | group_by(attribute="components.0") %}
+
+    {% if subsections.posts %}
+        <h2>Posts</h2>
+        <ul>
+            {# transparent subsections #}
+
+            {% for resource in subsections.posts | sort(attribute="date") | reverse %}
+            <li>
+                <a href="{{ resource.path | safe }}">{{ resource.title }}</a>
+                {% if resource.extra.tags %}
+                    {% for tag in resource.extra.tags %}
+                        <span class="list-tag">{{ tag }}</span>
+                    {% endfor %}
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</nav>

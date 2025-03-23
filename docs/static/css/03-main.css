@@ -1,0 +1,119 @@
+/* Colors have been softened a bit with color component F changed to E and 0 changed to 1 */
+:root {
+    --attr-text: #121212;
+    /* --attr-bgcolor: yellow; */
+    --attr-bgcolor: #ffdd99;
+    --attr-link: #11e;
+    --attr-vlink: #7e117e;
+    --attr-alink: #e11;
+}
+
+:root {
+    font-family: 'Inter', sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+    :root {
+        font-family: 'Inter var', sans-serif;
+    }
+}
+
+body>footer .notice {
+    font-size: smaller;
+}
+
+.page-metadata {
+    font-style: oblique;
+    font-size: smaller;
+    margin: 1em 0;
+}
+
+#contact_form label {
+    display: block;
+}
+
+#contact_form input[type="submit"],
+#contact_form button {
+    display: block;
+    margin-bottom: 1em;
+}
+
+#contact_form input[type="text"],
+#contact_form input[type="email"],
+#contact_form textarea {
+    display: block;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+.list-tag:before {
+    content: '#';
+}
+
+.list-tag {
+    font-size: smaller;
+    font-family: monospace;
+}
+
+body {
+    font-size: 1.6rem;
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 1.2rem;
+    line-height: 1.4;
+}
+
+.brand {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.brand a {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+body>header a:first-child {
+    margin-left: 0;
+}
+
+body>footer {
+    padding: 1rem 0;
+    font-size: smaller;
+    /* color: #333; */
+}
+
+#posts_pagination ul {
+    display: flex;
+    /*flex-wrap: wrap;*/
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+#posts_pagination li {
+    display: block;
+    padding: 0.25em 0 0.5em;
+}
+
+#posts_pagination .page-item a {
+    padding: 0.5em;
+}
+
+#posts_pagination .page-item.disabled a {
+    color: gray;
+}
+
+/* 
+.featured:before {
+    content: "★";
+} */
+
+/* .post-tag:before {
+    content: '#';
+}
+
+.post-tag {
+    color: gray;
+} */

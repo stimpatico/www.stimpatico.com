@@ -1,0 +1,42 @@
+{% import "_macros.html" as macros %}
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+
+<head>
+    {% block head %}
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+    <meta name="generator" content="Zola">
+    <meta name="color-scheme" content="normal">
+    {#{{/*link rel="shortcut icon" href="https://picocss.com/favicon.ico"*/}}#}
+
+    <meta name="author" content="{{ config.author }}">
+    {% set keywords = config.extra.keywords | join(sep=", ") %}
+    <meta name="keywords" content="{{ keywords }}">
+    <meta name="description" content="{{ config.description }}">
+
+    {% include "partial-style.html" %}
+
+    {% endblock head %}
+</head>
+
+<body>
+
+    <header>
+        {% include "partial-header.html" %}
+    </header>
+
+    <main>
+        {% block content %}{% endblock content %}
+        {% include "partial-endmark.html" %}
+    </main>
+
+    <footer>
+        {% include "partial-footer.html" %}
+    </footer>
+
+</body>
+
+</html>

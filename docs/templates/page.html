@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} | {{ config.title }}{% endblock title %}
+{% block head %}
+    {{ super() }}
+    <link rel="canonical" href="{{ current_url | safe }}">
+{% endblock head %}
+{% block content %}
+    <h1>{{ page.title }}</h1>
+    {% if page.date %}
+        <header class="page-metadata">
+            <time datetime="{{ page.date | date(format="%Y-%m-%d") }}" title="{{ page.date | date(format="%a, %d %b %Y") }}">{{ page.date | date(format="%B %e, %Y") }}</time>
+        </header>
+    {% endif %}
+    {{ page.content | safe }}
+    <footer class="page-metadata">
+    {% if page.updated %}
+        This page was last updated <time datetime="{{ page.updated | date(format="%Y-%m-%d") }}" title="{{ page.updated | date(format="%a, %d %b %Y") }}">{{ page.updated | date(format="%B %e, %Y") }}</time>.
+    {% endif %}
+    </footer>
+{% endblock content %}

@@ -1,2 +1,5 @@
+*.lock
+.*.un~
 .DS_Store
-
+.env
+public/

@@ -1,0 +1,112 @@
+/* --- Base defaults --- */
+
+* {
+    box-sizing: border-box;
+}
+
+/* body {
+    text-rendering: optimizeLegibility;
+} */
+
+/* --- NCSA Mosaic settings --- */
+
+:root {
+    --attr-text: black;
+    --attr-bgcolor: #bfbfbf;
+    --attr-link: #0000ff;
+    --attr-vlink: #7f007f;
+    --attr-hlink: var(--attr-link);
+    --attr-flink: var(--attr-link);
+    --attr-alink: #ff0000;
+}
+
+html {
+    font-family: "Times New Roman", Times, serif;
+    font-size: medium;
+    color: var(--attr-text);
+    background-color: var(--attr-bgcolor);
+}
+
+pre,
+tt,
+code,
+kbd,
+samp {
+    font-family: "Courier New", Courier, monospace;
+}
+
+/* Respect LVHA order */
+a[href],
+a[href]:link,
+a[href]:visited,
+/* a[href]:focus, */
+/* a[href]:hover, */
+a[href]:active {
+    text-decoration: underline;
+}
+
+/* a {
+    color: var(--attr-link);
+} */
+
+a[href]:link {
+    color: var(--attr-link);
+}
+
+a[href]:visited {
+    color: var(--attr-vlink);
+}
+
+/* a[href]:focus {
+    color: var(--attr-flink);
+} */
+
+/* a[href]:hover {
+    color: var(--attr-hlink);
+} */
+
+a[href]:active {
+    color: var(--attr-alink);
+}
+
+/* Place thick borders on image links */
+/* a[href] img {
+    border: solid 3px;
+} */
+
+a[href]:link img {
+    border-color: var(--attr-link);
+}
+
+a[href]:visited img {
+    border-color: var(--attr-vlink);
+}
+
+/* a[href]:focus img {
+    border-color: var(--attr-flink);
+} */
+
+/* a[href]:hover img {
+    border-color: var(--attr-hlink);
+} */
+
+a[href]:active img {
+    border-color: var(--attr-alink);
+}
+
+/* --- Sensible additions --- */
+
+/* Ensure deleted text is crossed-out */
+del {
+    text-decoration: line-through;
+}
+
+/* Underline inserted text */
+ins {
+    text-decoration: underline;
+}
+
+hr {
+    border: 1px inset;
+    /* questionable */
+}
