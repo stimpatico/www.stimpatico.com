@@ -7,7 +7,7 @@ sitemap_changefreq = "monthly"
 sitemap_priority = 0.6
 +++
 
-Protecting your private information is our priority. This Statement of Privacy applies to stimpatico.com, www.stimpatico.com, and Stimpatico LLC ("the Company") and governs data collection and usage. For the purposes of this Privacy Policy, unless otherwise noted, all references to the Company include stimpatico.com and www.stimpatico.com. The Company website is a marketing and information site. By using the Company website, you consent to the data practices described in this statement.
+Protecting your private information is our priority. This Statement of Privacy applies to stimpatico.com, www\.stimpatico\.com, and Stimpatico LLC ("the Company") and governs data collection and usage. For the purposes of this Privacy Policy, unless otherwise noted, all references to the Company include stimpatico.com and www\.stimpatico\.com. The Company website is a marketing and information site. By using the Company website, you consent to the data practices described in this statement.
 
 ## Collection of your Personal Information
 
@@ -90,7 +90,7 @@ The Company reserves the right to change this Privacy Policy from time to time. 
 
 The Company welcomes your questions or comments regarding this Statement of Privacy. If you believe that the Company has not adhered to this Statement, please contact the Company at:
 
-- Email Address: info@stimpatico.com
+- Email Address: info@stimpatico\.com
 - Telephone number: +1.2066576578
 
 _Effective as of March 22, 2025_
