@@ -4,6 +4,8 @@ title = "Contact"
 updated = "2025-03-23"
 [extra]
 pinned = true
+sitemap_changefreq = "monthly"
+sitemap_priority = 0.8
 +++
 We don't share or sell your information without your consent. We invite you to contact us:
 

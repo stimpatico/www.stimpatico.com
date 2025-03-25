@@ -4,11 +4,8 @@ subtitle = "We really mean it."
 
 #description = "Thank you for contacting us."
 robots = "noindex"
+[extra]
 sitemap_exclude = true
-
-[sitemap]
-changefreq = "yearly"
-priority = 0.1
 +++
 
 Your message is on its way.

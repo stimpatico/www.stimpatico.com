@@ -2,6 +2,9 @@
 title = "Privacy"
 date = "2025-03-18"
 updated = "2025-03-22"
+[extra]
+sitemap_changefreq = "monthly"
+sitemap_priority = 0.6
 +++
 
 Protecting your private information is our priority. This Statement of Privacy applies to stimpatico.com, www.stimpatico.com, and Stimpatico LLC ("the Company") and governs data collection and usage. For the purposes of this Privacy Policy, unless otherwise noted, all references to the Company include stimpatico.com and www.stimpatico.com. The Company website is a marketing and information site. By using the Company website, you consent to the data practices described in this statement.

@@ -4,6 +4,8 @@ title = "About"
 updated = "2025-03-23"
 [extra]
 pinned = true
+sitemap_changefreq = "monthly"
+sitemap_priority = 0.8
 +++
 
 We are headquartered in rain-soaked Washington State.

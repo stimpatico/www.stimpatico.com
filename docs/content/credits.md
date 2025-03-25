@@ -4,6 +4,9 @@ draft = true
 #description = "We are grateful to the artists and creatives whose work has facilitated this website."
 date = "2025-03-18"
 updated = "2025-03-23"
+[extra]
+sitemap_changefreq = "monthly"
+sitemap_priority = 0.2
 +++
 {{ company() }} is grateful to the artists, creatives, and designers whose work has facilitated this website.
 Acknowledgments here represent exceptions to any copyright asserted by {{ company() }}.
