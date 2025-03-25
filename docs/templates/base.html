@@ -16,6 +16,7 @@
     {% set keywords = config.extra.keywords | join(sep=", ") %}
     <meta name="keywords" content="{{ keywords }}">
     <meta name="description" content="{{ config.description }}">
+    <meta name="robots" content="{% block robots %}all{% endblock robots %}">
 
     {% include "partial-style.html" %}
 

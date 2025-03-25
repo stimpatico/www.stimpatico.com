@@ -3,8 +3,8 @@ title = "Thank you"
 subtitle = "We really mean it."
 
 #description = "Thank you for contacting us."
-robots = "noindex"
 [extra]
+robots = "noindex"
 sitemap_exclude = true
 +++
 
