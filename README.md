@@ -1,6 +1,6 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/daf406d2-74c3-40c2-a308-a3c3ac9cfbbe/deploy-status)](https://app.netlify.com/sites/endearing-zuccutto-43e06b/deploys)
+# www\.stimpatico\.com
 
-# www.stimpatico.com
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6b2fbfc0-ee5a-4bbd-876b-c82bfda70fed/deploy-status)](https://app.netlify.com/sites/stimpatico-first/deploys)
 
 Our company Web site
 
