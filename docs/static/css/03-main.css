@@ -6,6 +6,7 @@
     --attr-link: #11e;
     --attr-vlink: #7e117e;
     --attr-alink: #e11;
+    color-scheme: light dark;
 }
 
 :root {
@@ -15,6 +16,20 @@
 @supports (font-variation-settings: normal) {
     :root {
         font-family: 'Inter var', sans-serif;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --attr-text: #000;
+        --attr-bgcolor: #fff;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --attr-text: #fff;
+        --attr-bgcolor: #000;
     }
 }
 
