@@ -36,6 +36,7 @@ smart_punctuation = true
 
 [extra]
 # Put all your custom variables here
+copyright = 2025
 keywords = [
     "neurodivergence",
     "neurodiversity",
