@@ -23,6 +23,9 @@
     :root {
         --attr-text: #000;
         --attr-bgcolor: #fff;
+        --attr-link: #11e;
+        --attr-vlink: #7e117e;
+        --attr-alink: #e11;
     }
 }
 
@@ -30,6 +33,9 @@
     :root {
         --attr-text: #fff;
         --attr-bgcolor: #000;
+        --attr-link: #ee1;
+        --attr-vlink: #81ee81;
+        --attr-alink: #1ee;
     }
 }
 
