@@ -50,7 +50,7 @@ body>footer .notice {
 #contact_form input[type="submit"],
 #contact_form button {
     display: block;
-    margin-bottom: 1em;
+    margin: 1em 0;
 }
 
 #contact_form input[type="text"],
